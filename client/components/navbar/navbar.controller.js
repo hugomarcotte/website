@@ -5,6 +5,9 @@ angular.module('websiteApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    }, {
+      'title': 'Board',
+      'link': '/board'
     }];
 
     $scope.isCollapsed = true;
